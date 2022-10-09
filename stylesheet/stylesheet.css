@@ -6,7 +6,8 @@ body {
 #skills,
 #contact {
   background-color: rgb(70, 70, 70);
-  margin: -7px;
+  margin-left: -7px;
+  padding: 20px;
 }
 
 .placeholder {
@@ -28,5 +29,14 @@ h3 {
 #coverpicture {
   background-color: gold;
   border-radius: 100%;
-  margin-left: auto;
+  margin: auto;
+}
+
+figure {
+  background-color: rgb(100, 100, 100);
+  border: 5px, solid, white;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  align-items: center;
 }
