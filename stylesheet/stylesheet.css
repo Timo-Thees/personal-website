@@ -1,11 +1,10 @@
 body {
   background-color: rgb(100, 100, 100);
   font-family: "Roboto Slab", serif;
-  align-items: center;
 }
 #about,
 #skills,
-#contacts {
+#contact {
   background-color: rgb(70, 70, 70);
   margin: -7px;
 }
@@ -18,13 +17,16 @@ h1,
 h2 {
   font-family: "Montserrat";
   font-weight: 900;
+  text-align: center;
 }
 h3 {
   font-family: "Montserrat";
   font-weight: 100;
   color: gold;
+  text-align: center;
 }
 #coverpicture {
   background-color: gold;
   border-radius: 100%;
+  margin-left: auto;
 }
