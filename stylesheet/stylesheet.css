@@ -1,3 +1,13 @@
 body {
   background-color: rgb(100, 100, 100);
 }
+#about,
+#skills,
+#contacts {
+  background-color: rgb(70, 70, 70);
+  margin: -7px;
+}
+
+.placeholder {
+  color: aqua;
+}
