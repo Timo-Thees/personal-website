@@ -34,6 +34,10 @@ h3 {
   padding-bottom: 30px;
 }
 
+figurecaption {
+  text-align: center;
+}
+
 .header {
   display: flex;
   justify-content: space-around;
@@ -52,10 +56,13 @@ h3 {
   position: absolute;
 }
 
-figure {
+.showcase_container {
   background-color: rgb(100, 100, 100);
   border: 1px solid white;
   padding: 20px;
   margin: 20px;
   width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
