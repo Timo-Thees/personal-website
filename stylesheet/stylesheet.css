@@ -15,9 +15,9 @@ section {
   background-color: rgb(70, 70, 70);
 }
 
-.placeholder {
+/* .placeholder {
   color: rgb(255, 255, 255);
-}
+}*/
 
 h1,
 h2 {
@@ -36,6 +36,7 @@ h3 {
 
 figurecaption {
   text-align: center;
+  
 }
 
 .header {
@@ -56,13 +57,25 @@ figurecaption {
   position: absolute;
 }
 
+.skill_showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .showcase_container {
   background-color: rgb(100, 100, 100);
   border: 1px solid white;
-  padding: 20px;
+  padding: 40px;
   margin: 20px;
-  width: 200px;
+  width: 200px
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.skill_logo {
+  object-fit: contain;
+  width: 120px;
 }
