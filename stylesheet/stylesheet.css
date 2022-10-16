@@ -9,6 +9,7 @@ body {
 }
 section {
   padding: 80px;
+  margin-right: -80px;
 }
 
 .dark {
@@ -41,6 +42,8 @@ figurecaption {
 body {
   display: flex;
   justify-content: flex-end;
+  flex-direction: row-reverse;
+  align-items: flex-start;
 }
 
 header {
@@ -66,8 +69,8 @@ main {
   justify-content: center;
   gap: 10px;
   position: sticky;
-  top: 0px;
-  z-index: +1;
+  top: 50px;
+  right: 10px;
 }
 
 .navigation_link {
