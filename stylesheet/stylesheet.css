@@ -48,6 +48,19 @@ figurecaption {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 10px;
+  position: sticky;
+  top: 0px;
+  left: 100px;
+}
+
+.navigation_link {
+  background-color: rgb(150, 150, 150);
+  width: 80px;
+  height: 60px;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-size: 100;
 }
 
 .showcase_container {
