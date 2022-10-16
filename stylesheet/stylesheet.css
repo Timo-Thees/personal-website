@@ -38,10 +38,26 @@ figurecaption {
   text-align: center;
 }
 
-.header {
+body {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.navigation_guidiance {
+  display: flex;
+  flex-direction: column;
 }
 
 .navigation_container {
@@ -51,7 +67,7 @@ figurecaption {
   gap: 10px;
   position: sticky;
   top: 0px;
-  left: 100px;
+  z-index: +1;
 }
 
 .navigation_link {

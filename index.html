@@ -14,8 +14,15 @@
     />
   </head>
   <body>
-    <header>
-      <div class="header">
+    <nav class="navigation_container">
+      <a href="#about"><button class="navigation_link">About</button></a>
+      <a href="#cv"><button class="navigation_link">CV</button></a>
+      <a href="#skills"><button class="navigation_link">Skills</button></a>
+      <a href="#projects"><button class="navigation_link">Projects</button></a>
+      <a href="#contact"><button class="navigation_link">Contact</button></a>
+    </nav>
+    <div class="navigation_guidiance">
+      <header class="header">
         <h1>Timo Thees</h1>
         <div class="coverpicture">
           <img
@@ -36,109 +43,117 @@
             ><button class="navigation_link">Contact</button></a
           >
         </nav>-->
-      </div>
-    </header>
-    <nav class="navigation_container">
-      <a href="#about"><button class="navigation_link">About</button></a>
-      <a href="#cv"><button class="navigation_link">CV</button></a>
-      <a href="#skills"><button class="navigation_link">Skills</button></a>
-      <a href="#projects"><button class="navigation_link">Projects</button></a>
-      <a href="#contact"><button class="navigation_link">Contact</button></a>
-    </nav>
-    <section id="about" class="dark">
-      <h3>About Me</h3>
-      <h2>Nice to meet you</h2>
-      <p class="placeholder">
-        My name is Timo Thees. I am lorem ipsum dolor sit amet, consetetur
-        sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-        dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-        justo duo dolores et ea rebum.
-        <br /><br />
-        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-        sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-        diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-        erat, sed diam voluptua.
-        <br /><br />
-        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-        gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-      </p>
-    </section>
-    <section id="cv">
-      <h3>CV</h3>
-      <h2>Straight lines are boring</h2>
-      <p class="placeholder">
-        It might have taken me longer to find my path, but no time is wasted.
-      </p>
-    </section>
-    <section id="skills" class="dark">
-      <h3>Skills</h3>
-      <h2>These are my talents</h2>
-      <p>
-        My professional focus is on web development, but I am proficient in
-        several tools for grafic design, too.
-      </p>
-      <figure class="showcase_container">
-        <img
-          src="Adobe_Creative_Suite_icon.svg.png"
-          alt="Adobe Suite"
-          height="100px"
-        /><br />
-        <figurecaption
-          >I can work with all Adobe Suite products, but primarely
-          Photoshop</figurecaption
-        >
-      </figure>
-      <figure class="showcase_container">
-        <img src="logo javascript.png" alt="Java Script" height="100px" /><br />
-        <figurecaption class="placeholder">Insert text here</figurecaption>
-      </figure>
-      <figure class="showcase_container">
-        <img src="html css logo.png" alt="HtmL and CSS" height="100px" /><br />
-        <figurecaption class="placeholder">Insert text here</figurecaption>
-      </figure>
-      <figure class="showcase_container">
-        <img
-          src="Blender_logo_no_text.svg.png"
-          alt="Blender"
-          height="100px"
-        /><br />
-        <figurecaption class="placeholder">I can do Blender</figurecaption>
-      </figure>
-      <figure class="showcase_container">
-        <img
-          src="Unity_Technologies_logo.svg.png"
-          alt="Unity"
-          height="100px"
-        /><br />
-        <figurecaption class="placeholder"
-          >I can do basic Unity stuff</figurecaption
-        >
-      </figure>
-    </section>
-    <section id="projects">
-      <h3>Projects</h3>
-      <h2>What I have been doing so far</h2>
-      <div class="placeholder">Here you can see some of my projects...soon</div>
-    </section>
-    <section id="contact" class="dark">
-      <h3>Contact</h3>
-      <h2>Get in touch</h2>
-      <a href="https://www.linkedin.com/">
-        <img alt="visit me on LinkedIn" />
-      </a>
-      <a href="https://github.com/">
-        <img alt="visit me on github" />
-      </a>
-      <a href="https://twitter.com/">
-        <img alt="visit me on twitter" />
-      </a>
-      <a href="mailto:example@mail.com">
-        <img alt="email me" />
-      </a>
-      <figure>
-        <img alt="call me" /><br />
-        <figurecaption>0159 555 123456</figurecaption>
-      </figure>
-    </section>
+      </header>
+
+      <main>
+        <section id="about" class="dark">
+          <h3>About Me</h3>
+          <h2>Nice to meet you</h2>
+          <p class="placeholder">
+            My name is Timo Thees. I am lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum.
+            <br /><br />
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+            dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+            elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+            magna aliquyam erat, sed diam voluptua.
+            <br /><br />
+            At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+            kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+            amet.
+          </p>
+        </section>
+        <section id="cv">
+          <h3>CV</h3>
+          <h2>Straight lines are boring</h2>
+          <p class="placeholder">
+            It might have taken me longer to find my path, but no time is
+            wasted.
+          </p>
+        </section>
+        <section id="skills" class="dark">
+          <h3>Skills</h3>
+          <h2>These are my talents</h2>
+          <p>
+            My professional focus is on web development, but I am proficient in
+            several tools for grafic design, too.
+          </p>
+          <figure class="showcase_container">
+            <img
+              src="Adobe_Creative_Suite_icon.svg.png"
+              alt="Adobe Suite"
+              height="100px"
+            /><br />
+            <figurecaption
+              >I can work with all Adobe Suite products, but primarely
+              Photoshop</figurecaption
+            >
+          </figure>
+          <figure class="showcase_container">
+            <img
+              src="logo javascript.png"
+              alt="Java Script"
+              height="100px"
+            /><br />
+            <figurecaption class="placeholder">Insert text here</figurecaption>
+          </figure>
+          <figure class="showcase_container">
+            <img
+              src="html css logo.png"
+              alt="HtmL and CSS"
+              height="100px"
+            /><br />
+            <figurecaption class="placeholder">Insert text here</figurecaption>
+          </figure>
+          <figure class="showcase_container">
+            <img
+              src="Blender_logo_no_text.svg.png"
+              alt="Blender"
+              height="100px"
+            /><br />
+            <figurecaption class="placeholder">I can do Blender</figurecaption>
+          </figure>
+          <figure class="showcase_container">
+            <img
+              src="Unity_Technologies_logo.svg.png"
+              alt="Unity"
+              height="100px"
+            /><br />
+            <figurecaption class="placeholder"
+              >I can do basic Unity stuff</figurecaption
+            >
+          </figure>
+        </section>
+        <section id="projects">
+          <h3>Projects</h3>
+          <h2>What I have been doing so far</h2>
+          <div class="placeholder">
+            Here you can see some of my projects...soon
+          </div>
+        </section>
+        <section id="contact" class="dark">
+          <h3>Contact</h3>
+          <h2>Get in touch</h2>
+          <a href="https://www.linkedin.com/">
+            <img alt="visit me on LinkedIn" />
+          </a>
+          <a href="https://github.com/">
+            <img alt="visit me on github" />
+          </a>
+          <a href="https://twitter.com/">
+            <img alt="visit me on twitter" />
+          </a>
+          <a href="mailto:example@mail.com">
+            <img alt="email me" />
+          </a>
+          <figure>
+            <img alt="call me" /><br />
+            <figurecaption>0159 555 123456</figurecaption>
+          </figure>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
