@@ -35,16 +35,15 @@ h3 {
 }
 
 .figurecaption {
-  text-align: center;
+  text-align: justify;
+  word-wrap: break-word;
+  text-overflow: hidden;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.coverpicture {
 }
 
 .coverpicture-background {
